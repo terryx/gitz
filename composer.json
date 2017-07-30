@@ -1,0 +1,11 @@
+{
+  "require": {
+    "symfony/console": "^3.3",
+    "czproject/git-php": "^3.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gitz\\": "src"
+    }
+  }
+}

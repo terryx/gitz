@@ -1,0 +1,14 @@
+#! /usr/bin/env php
+
+<?php
+
+use Gitz\FeatureStartCommand;
+use Symfony\Component\Console\Application;
+
+require 'vendor/autoload.php';
+
+$app = new Application('Gitz', '0.1.0');
+
+$app->add(new FeatureStartCommand);
+
+$app->run();
